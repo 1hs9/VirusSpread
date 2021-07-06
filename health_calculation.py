@@ -1,7 +1,4 @@
 """
-Name: Harshit Shamra
-Student ID: 31272215
-
 Start Date: 26/05/2020
 Last Modified Date: 05/06/2020
 
@@ -10,7 +7,7 @@ simulation on the given values of days, meeting probability and patients zero he
 list of affected people per day which is used further in Task 2.
 """
 
-from A2_31272215_task1 import Person  # importing Person class from task 1
+from reading_population import Person  # importing Person class from task 1
 import random  # importing random function
 
 """
