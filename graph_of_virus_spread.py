@@ -1,6 +1,4 @@
 """
-Name: Harshit Shamra
-Student ID: 31272215
 Start Date:05/06/2020
 Last Modified Date: 08/06/2020
 Code Outcome: The program here plots the graph of number of affected people per day and number of days the simulation
@@ -11,7 +9,7 @@ input values. This happens because we are working on random probability keeping 
 consideration. The graph for each scenario are attached in the file which supports the required analysis
 """
 
-from A2_31272215_task2 import run_simulation  # importing run_simulation from task 2
+from health_calculation import run_simulation  # importing run_simulation from task 2
 from matplotlib import pyplot as plt  # importing matplot library
 
 """
@@ -33,6 +31,6 @@ def visual_curve(days, meeting_probability, patient_zero_health):
 if __name__ == '__main__':  # main function to define the flow and run code
     visual_curve(int(input('Enter number of days for simulation: ')), float(input('Enter Meeting Probability: ')),
                  float(input('Enter patient zero health: ')))
-    # visual_curve(30, 0.6, 25)  # Scenario_A
+    #  visual_curve(30, 0.6, 25)   Scenario_A
     #  visual_curve(60, 0.25, 49)  Scenario_B
     #  visual_curve(90, 0.18, 40)  Scenario_C
