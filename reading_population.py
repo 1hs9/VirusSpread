@@ -1,6 +1,4 @@
 """
-Name: Harshit Shamra
-Student ID: 31272215
 Start Date:20/05/2020
 Last Modified Date:25/05/2020
 Code Outcome: The main aim of this task is to generated objects for each person in the list and map them with their
